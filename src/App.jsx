@@ -72,8 +72,8 @@ function App() {
   };
 
   return (
-    <div className=' min-h-[100vh] bg-gray-200 pt-[15px]'>
-      <h1 className='text-center text-sky-600 font-bold text-[2em] '>Translator</h1>
+    <div className='min-h-[100vh] pt-[15px] object-cover object-center' style={{ background: "url('https://images.unsplash.com/photo-1465146633011-14f8e0781093?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')" }}>
+      <h1 className='text-center text-white font-bold text-[2em] '>Translator</h1>
 
       <div className='flex justify-center items-center gap-[20px] mt-[50px]'>
 
@@ -93,7 +93,7 @@ function App() {
             <option value="">Loading languages...</option>
           )}
         </select>
-        <p>To</p>
+        <p className='text-white text-lg font-bold'>To</p>
   
         <select
           name="convertTo"
